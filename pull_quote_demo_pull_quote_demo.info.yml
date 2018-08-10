@@ -12,6 +12,7 @@ dependencies:
   - entity_embed
   - entity_reference_revisions
   - features
+  - features:features_ui
   - field
   - filter
   - media_entity
