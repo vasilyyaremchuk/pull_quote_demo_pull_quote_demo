@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pull_quote_nested_text
+    - paragraphs.paragraphs_type.pull_quote_nested_text
+  module:
+    - text
+id: paragraph.pull_quote_nested_text.field_pull_quote_nested_text
+field_name: field_pull_quote_nested_text
+entity_type: paragraph
+bundle: pull_quote_nested_text
+label: 'Pull Quote Nested Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

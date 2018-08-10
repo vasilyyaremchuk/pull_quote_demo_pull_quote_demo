@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.pull_quote
+  module:
+    - entity_embed
+    - media_entity
+label: 'Pull Quote'
+id: pull_quote
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - pull_quote
+  display_plugins:
+    - 'view_mode:media.quote'
+  entity_browser: pull_quote
+  entity_browser_settings:
+    display_review: true
+icon_uuid: null

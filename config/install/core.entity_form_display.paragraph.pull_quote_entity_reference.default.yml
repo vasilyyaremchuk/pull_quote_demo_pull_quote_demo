@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.pull_quote
+    - field.field.paragraph.pull_quote_entity_reference.field_pull_quote_entity_referenc
+    - paragraphs.paragraphs_type.pull_quote_entity_reference
+  module:
+    - entity_browser
+id: paragraph.pull_quote_entity_reference.default
+targetEntityType: paragraph
+bundle: pull_quote_entity_reference
+mode: default
+content:
+  field_pull_quote_entity_referenc:
+    weight: 0
+    settings:
+      entity_browser: pull_quote
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      field_widget_replace: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: quote
+      open: false
+    third_party_settings: {  }
+    type: entity_browser_entity_reference
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

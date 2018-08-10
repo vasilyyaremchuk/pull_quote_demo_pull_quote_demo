@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: pull_quote_entity_reference
+label: 'Pull Quote Entity Reference'
+icon_uuid: null
+description: 'Just a reference to Pull Quote.'
+behavior_plugins: {  }

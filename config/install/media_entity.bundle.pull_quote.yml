@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: pull_quote
+label: 'Pull Quote'
+description: 'It can be used as embed Pull Quote in WYSIWYG or as a target in Entity Reference node or paragraph field.'
+type: generic
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration: {  }
+field_map: {  }

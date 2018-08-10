@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: pull_quote_nested_text
+label: 'Pull Quote Nested Text'
+icon_uuid: null
+description: WYSIWYG.
+behavior_plugins: {  }

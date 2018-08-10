@@ -1,0 +1,41 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.pull_quote_media_browser
+  module:
+    - entity_browser_entity_form
+    - views
+name: pull_quote
+label: 'Pull Quote'
+display: iframe
+display_configuration:
+  width: '800'
+  height: '500'
+  link_text: 'Select quotes'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  b8eb7887-515c-444f-be9e-c56209720cf1:
+    settings:
+      view: pull_quote_media_browser
+      view_display: entity_browser_1
+      submit_text: Apply
+      auto_select: false
+    uuid: b8eb7887-515c-444f-be9e-c56209720cf1
+    weight: 1
+    label: 'Existing Quote'
+    id: view
+  8929f8b9-a570-4fa9-a35d-765662aa4905:
+    settings:
+      entity_type: media
+      bundle: pull_quote
+      form_mode: default
+      submit_text: Apply
+    uuid: 8929f8b9-a570-4fa9-a35d-765662aa4905
+    weight: 2
+    label: 'New Quote'
+    id: entity_form

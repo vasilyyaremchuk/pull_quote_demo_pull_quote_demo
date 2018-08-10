@@ -1,0 +1,26 @@
+name: 'Pull Quote Demo'
+description: 'Media Pull Quote Demo.'
+type: module
+core: 8.x
+dependencies:
+  - asset_injector
+  - ckeditor
+  - editor
+  - embed
+  - entity_browser
+  - entity_browser_entity_form
+  - entity_embed
+  - entity_reference_revisions
+  - features
+  - field
+  - filter
+  - media_entity
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - text
+  - user
+  - views
+version: 8.x-1.0
+package: 'Pull Quote Demo'

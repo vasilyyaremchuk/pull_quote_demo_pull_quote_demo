@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: pull_quote
+label: 'Pull Quote'
+code: ".media-pull-quote .field--name-field-quote {\r\n\tfont-weight: bold;\r\n}\r\n\r\n.media-pull-quote .field--name-field-quote:before, .media-pull-quote .field--name-field-quote:after {\r\n\tcontent: '\"';\r\n}\r\n\r\n.media-pull-quote .field--name-field-author {\r\n\tfont-style: italic; \r\n\ttext-align: right;\r\n}\r\n\r\n.media-pull-quote .field--name-field-author:before {\r\n\tcontent: '-';\r\n}\r\n\r\n.media-pull-quote.view-mode-quote {\r\n  background: #eee;\r\n  padding: 1em;\r\n  border: 1px solid #ddd;\r\n}\r\n\r\n.embedded-entity.align-right {\r\n\twidth: 50%;\r\n\tfloat: right;\r\n\tmargin-left: 1em;\r\n}\r\n\r\n.embedded-entity.align-left {\r\n\twidth: 50%;\r\n\tfloat: left;\r\n\tmargin-right: 1em;\r\n}\r\n\r\n.embedded-entity.align-center {\r\n\twidth: 50%;\r\n\tmargin: 0 auto;\r\n}\r\n\r\n.media-pull-quote.views-col {\r\n  background: #eee;\r\n  padding: 2%;\r\n  width: 40%;\r\n  border: 1px solid #ddd;\r\n  margin: 1%;\r\n}"
+media: all
+preprocess: true
+conditions: {  }
+conditions_require_all: true

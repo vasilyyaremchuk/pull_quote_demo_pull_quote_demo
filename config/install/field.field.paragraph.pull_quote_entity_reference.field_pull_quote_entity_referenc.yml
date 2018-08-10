@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_pull_quote_entity_referenc
+    - media_entity.bundle.pull_quote
+    - paragraphs.paragraphs_type.pull_quote_entity_reference
+id: paragraph.pull_quote_entity_reference.field_pull_quote_entity_referenc
+field_name: field_pull_quote_entity_referenc
+entity_type: paragraph
+bundle: pull_quote_entity_reference
+label: 'Pull Quote Entity Reference'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      pull_quote: pull_quote
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

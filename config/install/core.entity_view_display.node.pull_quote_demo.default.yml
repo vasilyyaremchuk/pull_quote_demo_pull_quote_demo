@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pull_quote_demo.body
+    - field.field.node.pull_quote_demo.field_introductory_pull_quote
+    - field.field.node.pull_quote_demo.field_pull_quote_paragraphs
+    - node.type.pull_quote_demo
+  module:
+    - entity_reference_revisions
+    - text
+    - user
+id: node.pull_quote_demo.default
+targetEntityType: node
+bundle: pull_quote_demo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_introductory_pull_quote:
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: quote
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_pull_quote_paragraphs:
+    type: entity_reference_revisions_entity_view
+    weight: 3
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

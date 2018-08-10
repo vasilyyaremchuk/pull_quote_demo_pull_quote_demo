@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pull_quote_nested_text.field_pull_quote_nested_text
+    - paragraphs.paragraphs_type.pull_quote_nested_text
+  module:
+    - text
+id: paragraph.pull_quote_nested_text.default
+targetEntityType: paragraph
+bundle: pull_quote_nested_text
+mode: default
+content:
+  field_pull_quote_nested_text:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

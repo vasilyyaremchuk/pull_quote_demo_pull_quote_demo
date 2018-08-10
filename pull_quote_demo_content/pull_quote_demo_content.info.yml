@@ -1,0 +1,9 @@
+name: 'Pull Quote Demo Content'
+description: 'Dummy content for the demo.'
+type: module
+core: 8.x
+dependencies:
+  - default_content:default_content
+  - pull_quote_demo_pull_quote_demo
+version: 8.x-1.0
+package: 'Pull Quote Demo'

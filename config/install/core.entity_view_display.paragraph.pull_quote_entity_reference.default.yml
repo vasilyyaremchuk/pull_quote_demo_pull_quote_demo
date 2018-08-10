@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pull_quote_entity_reference.field_pull_quote_entity_referenc
+    - paragraphs.paragraphs_type.pull_quote_entity_reference
+id: paragraph.pull_quote_entity_reference.default
+targetEntityType: paragraph
+bundle: pull_quote_entity_reference
+mode: default
+content:
+  field_pull_quote_entity_referenc:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: quote
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden: {  }

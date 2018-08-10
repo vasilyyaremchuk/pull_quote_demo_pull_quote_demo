@@ -1,0 +1,5 @@
+bundle: pull_quote_demo
+excluded:
+  - editor.editor.basic_html
+  - filter.format.basic_html
+required: true

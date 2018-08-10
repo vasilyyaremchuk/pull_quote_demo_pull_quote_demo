@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.pull_quote_demo.body
+    - field.field.node.pull_quote_demo.field_introductory_pull_quote
+    - field.field.node.pull_quote_demo.field_pull_quote_paragraphs
+    - node.type.pull_quote_demo
+  module:
+    - text
+    - user
+id: node.pull_quote_demo.teaser
+targetEntityType: node
+bundle: pull_quote_demo
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_introductory_pull_quote: true
+  field_pull_quote_paragraphs: true
