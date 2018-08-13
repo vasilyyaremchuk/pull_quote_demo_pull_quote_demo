@@ -1,4 +1,4 @@
-# Pull Quote as a Media Demo Example
+# Demo Example: Pull Quote as a Media 
 Drupal 8 demo module that illustrate Media-Driven Architecture
 
 There are 2 modules:
